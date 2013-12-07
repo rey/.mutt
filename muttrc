@@ -26,7 +26,6 @@ set certificate_file = ~/.mutt/certificates
 set beep_new                  # beep on new email
 set mail_check=5              # This variable configures how often (in seconds) mutt should look for new mail
 set nomarkers                 # no wrap markers
-# set pager = "vim"             # use something other that the default pager
 set pager_stop                # don't go to next message at end of message
 set sort = "reverse-threads"  # Specifies how to sort messages in the index menu
 set timeout=10                # This variable controls the number of seconds Mutt will wait for a key to be pressed in the main menu before timing out and checking for new mail.
