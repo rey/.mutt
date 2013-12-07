@@ -1,0 +1,33 @@
+Status Flags
+
+In addition to who sent the message and the subject, a short summary of the disposition of each message is printed beside the message number. Zero or more of the following ``flags'' may appear, which mean:
+
+D
+message is deleted (is marked for deletion)
+
+d
+message have attachments marked for deletion
+
+K
+contains a PGP public key
+
+N
+message is new
+
+O
+message is old
+
+P
+message is PGP encrypted
+
+r
+message has been replied to
+
+S
+message is PGP signed, and the signature is succesfully verified
+
+s
+message is PGP signed
+
+!
+
