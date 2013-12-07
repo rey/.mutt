@@ -26,18 +26,19 @@ set certificate_file = ~/.mutt/certificates
 set beep_new                  # beep on new email
 set mail_check=5              # This variable configures how often (in seconds) mutt should look for new mail
 set nomarkers                 # no wrap markers
-# set pager = "vim"             # use something other that the default pager
 set pager_stop                # don't go to next message at end of message
 set sort = "reverse-threads"  # Specifies how to sort messages in the index menu
 set timeout=10                # This variable controls the number of seconds Mutt will wait for a key to be pressed in the main menu before timing out and checking for new mail.
 set tilde                     # fill out messages with ~
 
 # sending
+set abort_nosubject = no      # if set to no, composing messages with no subject given at the subject prompt will never be aborted.
 set copy = no                 # gmail automagically saves sent mail on the server
 set editor = "vim"            # vim vim vim
 set fast_reply                # the initial prompt for recipients and subject are skipped when replying to messages
 set include                   # Controls whether or not a copy of the message(s) you are replying to is included in your reply
 set send_charset="utf-8"      # A list of character sets for outgoing message
+unset record                  # do not append a copy of every email you send to a file on your hard drive
 
 # else
 set imap_check_subscribed     #
