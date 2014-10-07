@@ -17,6 +17,13 @@ set postponed   =   "+[Gmail]/Drafts"
 # set trash       =   "+[Gmail]/Trash"
 # set important   =   "+[Gmail]/important"
 
+# local mail config
+# set mbox_type=maildir
+# set mbox="~/mail/inbox/"
+# set folder="~/mail/"
+# set record="~/mail/sent/"
+# set postponed="~/mail/postponed/"
+
 # local folders for cached headers and certs
 set header_cache = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
